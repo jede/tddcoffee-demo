@@ -1,6 +1,6 @@
 src_files:
-    - "**/*.js"
-    - "**/*.js.coffee"
+    - "**/lib/*.js"
+    - "**/*.coffee"
 spec_files:
     - "**/*[sS]pec.js"
     - "**/*[sS]pec.js.coffee"
