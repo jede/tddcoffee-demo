@@ -1,0 +1,21 @@
+# Test Driven Coffeescript Development
+
+This is a minimal example of a class for creating tabs in Coffeescript.
+
+There are some commented out production and test code. The idea is that the missing functionallity should be implemented.
+
+Prerequisites:
+* ruby (tip: install with rvm)
+* bundler (run: gem install bundler)
+
+Then you shall be able to install all dependencies by running:
+
+$ bundle install
+
+The tests can be run with:
+
+$ jasmine-headless-webkit -c
+
+And the cucumber features:
+
+$ cucumber
