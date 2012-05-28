@@ -6,7 +6,7 @@ Given /^I am on the start page$/ do
 end
 
 When /^I click "([^"]*)"$/ do |text|
-  page.find('*', text: text).click
+  page.find('a', text: text).click
 end
 
 Then /^I should see "([^"]*)"$/ do |text|
