@@ -9,5 +9,5 @@ Feature: Change active tab
     When I click "Home"
     Then I should see "Welcome"
 
-    When I click "About"
-    Then I should see "info@bigbigcompany.com"
+#   When I click "About"
+#   Then I should see "info@bigbigcompany.com"
