@@ -4,7 +4,7 @@ class window.Tabs
     @content = @el.find('.content')
 
     @content.find('li').hide()
-    @content.find('.'+@options.default).show()
+    @content.find('#'+@options.default).show()
 
 #   @tabs = @el.find('.tabs')
 #   for tab in @tabs.find('li a')
@@ -14,4 +14,4 @@ class window.Tabs
 
 # show: (name) ->
 #   @content.find('li').hide()
-#   @content.find('#'+name).show()
+#   @content.find(name).show()
