@@ -1,6 +1,6 @@
 source :rubygems
 
-gem "jasmine-headless-webkit"
+gem "jasmine-headless-webkit", git: 'git://github.com/johnbintz/jasmine-headless-webkit.git', tag: 'v0.9.0.rc.2'
 gem "jasmine"
 
 gem "cucumber"
